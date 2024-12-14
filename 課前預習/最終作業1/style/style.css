@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  font-family: "Castoro", "微軟正黑體", serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.header h1,
+h2 {
+  font-size: 128px;
+  line-height: 192px;
+  letter-spacing: 12px;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.header h2 {
+  text-align: right;
+  padding: 20px 0;
+}
+
+.content p {
+  font-size: 32px;
+  line-height: 48px;
+  width: 636px;
+  margin-left: auto;
+  padding: 48px 0;
+}
+
+.profile {
+  margin-top: 8px;
+}
+
+.profile a {
+  color: #000;
+  text-decoration: initial;
+}
+
+.profile a:hover {
+  color: #ffaa00;
+  font-size: 35px;
+}
+
+.profile h3 {
+  color: #ae0000;
+  font-size: 40px;
+  line-height: 60px;
+  border-bottom: 3px solid #ae0000;
+  margin-top: 40px;
+}
+
+.profile li {
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 8px;
+}
+
+.profile .years {
+  color: #949494;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer {
+  background: #000;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.footer .FB, .IG, .LINE {
+  background: #ffaa00;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.footer img:hover {
+  transform: translate(-10px, -10px);
+}/*# sourceMappingURL=style.css.map */

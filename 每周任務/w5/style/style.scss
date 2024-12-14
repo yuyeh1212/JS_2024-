@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.counterContainer,
+.accordionContainer,
+.tabsContainer,
+.todoContainer {
+  width: 400px;
+  height: 200px;
+}
+
+// 加減計數器
+.counterContainer {
+  background-color: #00796b;
+  text-align: center;
+  color: #ffffff;
+}
+
+.count {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.multiplierSection {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+#multiplier {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+// 手風琴
+.accordionHeader {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  background: #888;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  background: #2b2b2b;
+  color: white;
+  border-top: 1px solid #888;
+}
+
+// 手風琴
+.tabsContainer {
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #ccc;
+  color: black;
+}
+
+.tabs button.active {
+  background: #888;
+}
+
+.tabContent {
+  background: #2b2b2b;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+  color: white;
+}
+
+//代辦事項
+.todoContainer {
+  margin-bottom: 20px;
+}
+
+#todoInput {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#todoList li {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#todoList button {
+  margin-left: 5px;
+}

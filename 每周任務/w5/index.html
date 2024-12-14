@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM 操作</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!-- (1) -->
+    <div data-target id="target" class="target">選我01</div>
+    <div data-target class="target">選我02</div>
+    <br />
+    <!-- (4) -->
+    <button id="addButton">新增你好世界</button>
+    <br />
+    <!-- (5) -->
+    <br />
+    <form>
+      <input name="user" type="input" required />
+      <input type="submit" value="獲取資料" />
+    </form>
+    <br />
+    <!-- (6)+(7) -->
+    <div class="counterContainer">
+      <div id="countDisplay" class="count">0</div>
+      <ul class="buttons">
+        <li><button id="incrementBtn">+1</button></li>
+        <li><button id="resetBtn">Reset</button></li>
+        <li><button id="decrementBtn">-1</button></li>
+      </ul>
+      <div class="multiplierSection">
+        <input type="number" id="multiplier" placeholder="請輸入倍數" min="1" />
+        <button id="applyMultiplierBtn">提交倍數</button>
+      </div>
+    </div>
+    <br>
+    <!-- (8) -->
+    <div class="accordionContainer">
+      <div class="accordion">
+        <button class="accordionHeader">Section 1 <span>+</span></button>
+        <div class="accordion-content">Content for Section 1</div>
+      </div>
+      <div class="accordion">
+        <button class="accordionHeader">Section 2 <span>+</span></button>
+        <div class="accordion-content">Content for Section 2</div>
+      </div>
+      <div class="accordion">
+        <button class="accordionHeader">Section 3 <span>+</span></button>
+        <div class="accordion-content">Content for Section 3</div>
+      </div>
+    </div>
+    <br>
+    <!-- (9) -->
+    <div class="tabsContainer">
+      <div class="tabs">
+        <button class="tab active" data-tab="london">London</button>
+        <button class="tab" data-tab="paris">Paris</button>
+        <button class="tab" data-tab="tokyo">Tokyo</button>
+      </div>
+      <div class="tabContent" id="london">London is the capital of England.</div>
+      <div class="tabContent" id="paris" style="display: none;">Paris is the capital of France.</div>
+      <div class="tabContent" id="tokyo" style="display: none;">Tokyo is the capital of Japan.</div>
+    </div>
+    <!-- (10) -->
+    <div class="todoContainer">
+      <input type="text" id="todoInput" placeholder="請輸入事項">
+      <button id="todoSubmit">提交</button>
+      <ul id="todoList"></ul>
+    </div>
+    <script src="./app1.js"></script>
+  </body>
+</html>
